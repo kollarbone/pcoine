@@ -3,8 +3,8 @@ import Header from "./components/header/Header";
 
 function App() {
   return (
-    <div>
-      <header>
+    <div className="max-w-screen-lg m-0-auto app">
+      <header className="drop-shadow-md">
         <Header />
       </header>
       <MainBlock />
