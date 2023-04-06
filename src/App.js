@@ -1,10 +1,13 @@
-import logo from "./assets/img/logo.png";
+import MainBlock from "./components/MainBlock";
+import Header from "./components/header/Header";
 
 function App() {
   return (
-    <div className="App">
-      <img src={logo} alt="logo" />
-      <p>iejoofcekrfjeorf</p>
+    <div>
+      <header>
+        <Header />
+      </header>
+      <MainBlock />
     </div>
   );
 }
