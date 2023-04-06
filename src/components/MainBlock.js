@@ -9,7 +9,7 @@ export default function MainBlock() {
       <img src={coin2} alt="coin" className="w-20 absolute top-1/4 left-full" />
       <img src={coin1} alt="coin" className="w-20 absolute top-2/3 right-3/4" />
       <p className="text-8xl">Buy & Sell Cripto Instantly</p>
-      <p>The most trusted cryptocurrency platform</p>
+      <p className="mt-6 text-xl">The most trusted cryptocurrency platform</p>
       <img src={coin4} alt="coin" className="w-20 absolute top-2/3 left-3/4" />
       <img
         src={coin3}
