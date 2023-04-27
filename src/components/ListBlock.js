@@ -6,7 +6,7 @@ export default function List() {
   const { coins } = useCoins();
   const [data, setData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemPerPage] = useState(10);
+  const [itemPerPage] = useState(9);
   useEffect(() => {
     setData(coins.data);
   }, [coins.data]);
@@ -22,9 +22,7 @@ export default function List() {
 
   return (
     <div className="m-5 mt-40">
-      <p className="text-3xl text-left m-7 text-orange-400 border-b w-fit border-orange-400">
-        Hot Coins New
-      </p>
+      <p className="text-4xl text-left m-7 text-white  w-fit">Hot Coins New</p>
       <div className="flex flex-col m-3">
         <div className="flex flex-row items-center text-orange-300 justify-between p-5">
           <p className="text-base">Coin</p>
@@ -38,7 +36,7 @@ export default function List() {
       </div>
       <div className="flex flex-row justify-evently ">
         {data &&
-          data.length > 10 &&
+          data.length > 9 &&
           pageNumber.map((number) => (
             <button
               className={
