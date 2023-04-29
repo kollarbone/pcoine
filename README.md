@@ -1,4 +1,4 @@
-# View demo [here](https://kollarbone.github.io/pstore/)
+# View demo [here](https://kollarbone.github.io/pcoin/)
 
 # Getting Started with Create React App
 
