@@ -3,7 +3,7 @@ import Navigation from "./Navigation";
 import { BsTwitter, BsDiscord, BsTelegram } from "react-icons/bs";
 export default function Header() {
   return (
-    <div className="flex p-5 justify-between items-center ">
+    <div className="flex p-5 justify-between items-center max-w-7xl m-auto">
       <div className="flex items-center ">
         <img
           src={logo}
