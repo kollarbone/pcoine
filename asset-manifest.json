@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/pcoine/static/css/main.c8485aee.css",
-    "main.js": "/pcoine/static/js/main.9737997a.js",
+    "main.css": "/pcoine/static/css/main.9b617ff3.css",
+    "main.js": "/pcoine/static/js/main.19ba0cbb.js",
     "static/media/card146.png": "/pcoine/static/media/card146.dcf8974dd448a2b06e9d.png",
     "static/media/card121.png": "/pcoine/static/media/card121.62639c6552c32f44d027.png",
     "static/media/card107.png": "/pcoine/static/media/card107.d82dd3e8720f61b4ff4d.png",
     "static/media/card3.png": "/pcoine/static/media/card3.4935fd3d104fed557080.png",
     "index.html": "/pcoine/index.html",
-    "main.c8485aee.css.map": "/pcoine/static/css/main.c8485aee.css.map",
-    "main.9737997a.js.map": "/pcoine/static/js/main.9737997a.js.map"
+    "main.9b617ff3.css.map": "/pcoine/static/css/main.9b617ff3.css.map",
+    "main.19ba0cbb.js.map": "/pcoine/static/js/main.19ba0cbb.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8485aee.css",
-    "static/js/main.9737997a.js"
+    "static/css/main.9b617ff3.css",
+    "static/js/main.19ba0cbb.js"
   ]
 }
