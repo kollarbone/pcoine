@@ -17,13 +17,29 @@ export default function MainBlock() {
   }
   return (
     <>
-      <div className="h-[700px] flex justify-center relative flex-col">
+      <div className="sm:h-[700px] h-[500px] m-auto flex justify-center relative flex-col items-center">
         <p className="sm:text-8xl text-7xl relative flex flex-row items-center">
-          <img src={coin2} alt="coin" className="w-20 mb-40 coin left-full" />
-          <img src={coin3} alt="coin" className="w-20 mt-40 coin right-full" />
+          <img
+            src={coin2}
+            alt="coin"
+            className="w-20 mb-40 coin left-full hidden sm:flex"
+          />
+          <img
+            src={coin3}
+            alt="coin"
+            className="w-20 mt-40 coin right-full hidden sm:flex"
+          />
           Buy & Sell Cripto Instantly
-          <img src={coin1} alt="coin" className="w-20 mt-40 coin right-3/4" />
-          <img src={coin4} alt="coin" className="w-20 mb-40 coin left-3/4" />
+          <img
+            src={coin1}
+            alt="coin"
+            className="w-20 mt-40 coin right-3/4 hidden sm:flex"
+          />
+          <img
+            src={coin4}
+            alt="coin"
+            className="w-20 mb-40 coin left-3/4 hidden sm:flex"
+          />
         </p>
         <p className="mt-6 text-xl relative">
           The most trusted cryptocurrency platform
@@ -34,7 +50,7 @@ export default function MainBlock() {
           {popCoin.map((item, id) => (
             <div
               key={id}
-              className="border rounded p-3 m-1 w-1/5 hover:bg-white hover:text-gray-800 cursor-pointer"
+              className="border duration-300 rounded p-3 m-1 sm:w-1/5 w-full hover:bg-white hover:text-gray-800 cursor-pointer"
             >
               <p className="text-2xl text-orange-300">{item.symbol}</p>
               <p className="text-xl truncate ">{item.name}</p>

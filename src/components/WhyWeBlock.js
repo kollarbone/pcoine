@@ -5,10 +5,10 @@ import { BsArrowRight } from "react-icons/bs";
 
 export default function WhyWeBlock() {
   return (
-    <div className="m-5 mt-40">
+    <div className="m-5 mt-40 mb-20">
       <p className="text-4xl text-left m-7 text-white  w-fit">Why Choose Us</p>
-      <div className="flex flex-row mt-10 justify-between">
-        <div className="relative flex flex-col w-1/3 p-5 rounded bg-orange-900 items-center m-1">
+      <div className="flex sm:flex-row mt-20 justify-between flex-col">
+        <div className="hover:-translate-y-6 duration-300 cursor-pointer relative flex flex-col sm:w-1/3 w-full p-5 rounded bg-orange-900 items-center m-1 hover:opacity-100 opacity-70">
           <MdSupportAgent className="text-white mt-10 text-8xl border-2 rounded-full p-1" />
           <p className="text-3xl mt-10 mb-10">24/7 Support</p>
           <p className="text-xl  mb-20">
@@ -19,7 +19,7 @@ export default function WhyWeBlock() {
             Learn more <BsArrowRight />
           </div>
         </div>
-        <div className="relative flex flex-col w-1/3 p-5 rounded bg-orange-900 items-center m-1">
+        <div className="hover:-translate-y-6 duration-300 cursor-pointer relative flex flex-col sm:w-1/3 w-full p-5 rounded bg-orange-900 items-center m-1 hover:opacity-100 opacity-70">
           <VscFileSubmodule className="text-white mt-10 text-8xl border-2 rounded-full p-1" />
           <p className="text-3xl mt-10 mb-10">Easy to use</p>
           <p className="text-xl  mb-20">
@@ -31,7 +31,7 @@ export default function WhyWeBlock() {
             Learn more <BsArrowRight />
           </div>
         </div>
-        <div className="relative flex flex-col w-1/3 p-5 rounded bg-orange-900 items-center m-1">
+        <div className="hover:-translate-y-6 duration-300 cursor-pointer relative flex flex-col sm:w-1/3 w-full p-5 rounded bg-orange-900 items-center m-1 hover:opacity-100 opacity-70">
           <RiSecurePaymentLine className="text-white mt-10 text-8xl border-2 rounded-full p-1" />
           <p className="text-3xl mt-10 mb-10">Secure</p>
           <p className="text-xl  mb-20">
